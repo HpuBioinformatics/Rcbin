@@ -84,12 +84,14 @@ python evaluate.py \
     --ground_truth cami_ground_truth.tsv \
     --output_dir ./evaluation_plots
 ```
-Outputs
+### Outputs
 final_bins/: Contains the final refined .fa bins.
 
-Terminal prints global metrics including Accuracy (bp), and Mean Purity.
+evaluation_plots/: Contains completeness_barplot.png, n50_boxplot.png, and purity_histogram.png.
 
-Citation
+Terminal prints global metrics including Accuracy (bp), Median N50, and Mean Purity.
+
+### Citation
 If you use Rcbin in your research, please cite our paper:
 
 Rcbin: A Metagenomic Binning Framework via Cross-View Contrastive Learning and RL-Driven Dynamic Clustering. (Under Review)
